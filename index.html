@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple todo App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mainBox">
+            <div class="controls">
+                <h1 id="hone">My Awesome TODO</h1>
+                <input type="text" id="input" class="control_input">
+                <br>
+                <button type="button" class="control_btn add_btn" id="add"> Add Todo </button>
+                <button type="button" class="control_btn remove_btn" id="remove"> Remove Done Todo </button>
+                <!-- <button type="button" class="control_btn removeAll_btn" id="removeAll"> Remove All Todo </button> -->
+            </div>
+            <ul id="list" class="list">
+                <li class="myCheck">
+                    <input type="checkbox" id="check" class="checkbox_input">
+                    <label class="checkLabel"> Go to Gym</label>
+                </li>
+                <li class="myCheck">
+                    <input type="checkbox" id="check" class="checkbox_input" checked>
+                    <label class="checkLabel"> Record Youtube Videos </label>
+                </li>
+                <li class="myCheck">
+                    <input type="checkbox" id="check" class="checkbox_input" checked>
+                    <label class="checkLabel"> Record Youtube Videos </label>
+                </li>
+                <li class="myCheck">
+                    <input type="checkbox" id="check" class="checkbox_input" checked>
+                    <label class="checkLabel"> Record Youtube Videos </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

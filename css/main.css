@@ -1,0 +1,123 @@
+body {
+  background-color: #34495e;
+}
+
+.container .mainBox {
+  border: 10px solid #01a3a4;
+  background: #fff;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.container h1 {
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+.container .list {
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+.container .myCheck {
+  list-style: none;
+  border: 2px solid #b5c5dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .checkLabel {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.container .checkbox_input {
+  margin: 5px;
+  border: 2px solid #b5c5dd;
+  position: relative;
+  outline: 0;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+}
+
+.container .checkbox_input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.container .checkbox_input:checked:after {
+  content: '\2714';
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+}
+
+.container .control_input {
+  font-size: 20px;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid #b5c5dd;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.container .control_input:focus {
+  outline: 0;
+}
+
+.container .control_btn {
+  background: #fff;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.container .control_btn:focus {
+  outline: none;
+}
+
+.container .control_btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container .add_btn {
+  background: #2980b9;
+}
+
+.container .remove_btn {
+  background: #c0392b;
+}
+
+.container .removeAll_btn {
+  background: #c0392b;
+}
+
+.container .myCheck {
+  opacity: 1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.container .myCheck:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
